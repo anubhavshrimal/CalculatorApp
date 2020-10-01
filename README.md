@@ -1,3 +1,9 @@
+*******
+Your App is Perfectly FIne but what i found is when 100 such big no comes then factorial calculation will takes time cz 100! = 100+ digits . 
+and also gives memory error for You App.
+
+*******
+
 # CalculatorApp
 Started on 01 March 2016
 
