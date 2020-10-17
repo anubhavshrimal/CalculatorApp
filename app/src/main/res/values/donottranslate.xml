@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="package_name">com.simplemobiletools.calculator</string>
+
+    <!-- Release notes -->
+    <string name="release_28">Allow customizing the bottom navigation bar color</string>
+    <string name="release_18">Added a toggle for preventing the phone from sleeping, enabled by default</string>
+
+</resources>

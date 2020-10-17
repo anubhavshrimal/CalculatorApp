@@ -1,89 +1,50 @@
 <resources>
-    <string name="app_name">CalculatorApp</string>
-    <string name="action_settings">Settings</string>
-    <string name="stdCal">Standard Calculator</string>
-    <string name="sciCal">Scientific Calculator</string>
-    <string name="unitCal">Unit Converter</string>
-    <string name="FullCal">Calculator App</string>
-    <string name="title_activity_standard_cal">StandardCal</string>
-    <string name="title_activity_scientific_cal">ScientificCal</string>
-    <string name="title_activity_unit_coverter">UnitCoverter</string>
-    <string name="clear">C</string>
-    <string name="backspace">⌫</string>
-    <string name="divide">÷</string>
-    <string name="sqrt">√</string>
-    <string name="cuberoot">\u221B</string>
-    <string name="square">x²</string>
-    <string name="cube">x\u00B3</string>
-    <string name="tenpow">10\u207F</string>
-    <string name="sininv">sin\u207B\u00B9</string>
-    <string name="cosinv">cos\u207B\u00B9</string>
-    <string name="taninv">tan\u207B\u00B9</string>
-    <string name="posneg">±</string>
-    <string name="arrow">↑</string>
-    <string name="xpown">xⁿ</string>
-    <string name="epown">eⁿ</string>
-    <string name="pi">π</string>
-    <string name="title_activity_unit_area">UnitArea</string>
-    <string name="title_activity_unit_length">UnitLength</string>
-    <string name="title_activity_unit_weight">UnitWeight</string>
-    <string name="title_activity_unit_temperature">UnitTemperature</string>
-    <string name="openBracket">(</string>
-    <string name="closeBracket">)</string>
-    <string name="history">History</string>
+    <string name="app_name">Simple Calculator</string>
+    <string name="app_launcher_name">Calculator</string>
+    <string name="scientific_calculator">Scientific Calculator</string>
 
-    <string-array name="area">
-        <item>Sq. Millimeter</item>
-        <item>Sq. Centimeter</item>
-        <item>Sq Meter</item>
-        <item>Sq. Kilometer</item>
-        <item>Acre</item>
-        <item>Hectare</item>
-    </string-array>
+    <!-- Calculator field -->
+    <string name="formula_divide_by_zero_error">Error: division by zero</string>
 
-    <string-array name="length">
-        <item>Nanometer</item>
-        <item>Millimeter</item>
-        <item>Centimeter</item>
-        <item>Meter</item>
-        <item>Kilometer</item>
-        <item>Inches</item>
-        <item>Foot</item>
-        <item>Yards</item>
-        <item>Mile</item>
-    </string-array>
+    <!-- Settings -->
+    <string name="vibrate_on_button_press">Vibrate on button press</string>
 
-    <string-array name="temperature">
-        <item>Celsius</item>
-        <item>Farenheit</item>
-        <item>Kelvin</item>
-    </string-array>
+    <!-- FAQ -->
+    <string name="faq_1_title">How does the C (Clear) button work?</string>
+    <string name="faq_1_text">Tapping on it will remove one character at a time. Long pressing it will reset all fields at once.</string>
 
-    <string-array name="weight">
-        <item>Milligrams</item>
-        <item>Centigrams</item>
-        <item>Decigrams</item>
-        <item>Grams</item>
-        <item>Kilograms</item>
-        <item>Metric tonnes</item>
-        <item>Pounds</item>
-        <item>Ounces</item>
-    </string-array>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Calculator - Do your calculations quickly</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">A calculator for quick simple calculations with a nice user interface and no ads</string>
+    <string name="app_long_description">
+        This stylish modern calculator offers great user experience that you will love seeing. You can copy the result or formula to clipboard by long pressing it.
 
-    <string name="title_activity_history">History</string>
-    <string name="deleteHistory">Delete History</string>
-    <string name="mode1">Degree</string>
-    <string name="mode2">Radian</string>
-    <string name="toggle">SWITCH</string>
-    <string name="sin">sin</string>
-    <string name="cos">cos</string>
-    <string name="tan">tan</string>
-    <string name="naturalLog">ln</string>
-    <string name="hyperbolicSine">sinh</string>
-    <string name="hyperbolicCosine">cosh</string>
-    <string name="hyperbolicTan">tanh</string>
-    <string name="log">log</string>
-    <string name="Mod">%</string>
-    <string name="inverse">1/x</string>
-    <string name="factorial" >x!</string>>
+        The app is a simple helper for fast calculations with many basic functions including multiplying, dividing, root and powers.
+
+        You can make it vibrate on button presses to make you confident during inserting your values.
+
+        There is an option to prevent the phone from sleeping while using the app for comfortable usage.
+
+        The text color of the resizable widget can be customized, as well as the color and the alpha of the background. Press the result or formula in the widget to open the app.
+
+        It comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.
+
+        Contains no ads or unnecessary permissions. It is fully opensource, provides customizable colors.
+
+        <b>Check out the full suite of Simple Tools here:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
 </resources>
