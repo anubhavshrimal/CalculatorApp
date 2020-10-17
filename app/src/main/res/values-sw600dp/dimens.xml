@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="initial_widget_width">320dp</dimen>
+    <dimen name="initial_widget_height">320dp</dimen>
+
+    <dimen name="button_text_size">42sp</dimen>
+    <dimen name="formula_text_size">30sp</dimen>
+    <dimen name="display_text_size">60sp</dimen>
+</resources>
