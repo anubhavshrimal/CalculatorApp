@@ -165,6 +165,16 @@ public class ConvertingUnits
         {
             return (Kelvin-273.15);
         }
+
+        public double FerToCelsi(double fer)
+        {
+            return (fer-32)/1.8
+        }
+
+        public double CelsiToFer(double Celsi)
+        {
+            return (Celsi * 1.8) + 32.0
+        }
     }
 
     //class to convert units of mass/weight
